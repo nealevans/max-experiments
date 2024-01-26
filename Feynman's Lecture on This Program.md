@@ -36,4 +36,8 @@ Welcome, curious minds! Today, we dive into the delightful dance of physics mani
 ## Conclusion
 Our program isn’t just code; it’s a symphony of physics, mathematics, and a bit of computational magic. It demonstrates how basic principles govern even the most complex of motions. Feynman would have probably added, “Nature uses only the longest threads to weave her patterns,” and here, we’ve just seen the tapestry of circular motion unfold in our little computational loom.
 
+In fact, this code is based on Feynman's Lectures in Physics, volume 1, Chapter 9-7 "Planetary Motion".[^1] Of course, the GOAT did it by hand and with a slide rule!
+
 So, go forth and simulate, and remember, in the realm of physics, everything is connected, sometimes quite literally in the case of centripetal force. Happy computing!
+
+[^1]: Richard P. Feynman, Robert B. Leighton, and Matthew Sands, "The Feynman Lectures on Physics, Volume I: Mainly Mechanics, Radiation, and Heat," Chapter 9-7, "Planetary Motion" (California Institute of Technology, 1963).
