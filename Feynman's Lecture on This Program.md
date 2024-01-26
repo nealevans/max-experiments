@@ -1,5 +1,3 @@
-You are correct. To display mathematical expressions properly on GitHub using Markdown, you should use either the `$` delimiters for inline expressions or the ```math delimiters for block expressions. I apologize for the confusion. Here's the corrected formatting:
-
 # Feynman's Lecture on This Program.md
 
 ## Introduction
