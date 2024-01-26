@@ -5,11 +5,11 @@ This Python script simulates the circular motion of an object subjected to a con
 
 ## Key Components
 - **Libraries**: Pandas for data manipulation, Matplotlib for plotting.
-- **Constants**: Number of steps (`n`), time step (`ε`), velocity (`v`), force (`F`), mass (`m`). Einstein would be proud.
+- **Constants**: Number of steps (`n`), time step (`ε`), initial velocity magnitude (`v`), force (`F`), mass (`m`). Einstein would be proud.
 - **Calculated Values**: Acceleration (`a`), radius of motion (`R`), initial position (`x0`, `y0`).
 
 ## Mechanics
-1. **Initial Setup**: Starts with an object at rest, placed at a distance `R` from the origin.
+1. **Initial Setup**: Starts with an object with an initial velocity, placed at a distance `R` from the origin.
 2. **Forces & Motion**: Applies a force leading to acceleration and circular motion. It's like pushing a merry-go-round, but with math.
 3. **Iteration Loop**: 
    - The loop runs for `n` steps, updating position and velocity at each time step `ε`.
