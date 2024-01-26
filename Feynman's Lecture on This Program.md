@@ -6,7 +6,7 @@ Welcome, curious minds! Today, we dive into the delightful dance of physics mani
 ## Circular Motion Basics
 1. **What's Going On?**: Our protagonist, a point mass, is taking a circular path under constant force. Imagine a planet orbiting a star, but less celestial and more computational.
 
-2. **The Force and Acceleration Tango**: The force applied keeps our object in circular motion. Thanks to Newton (Isaac, not the fig cookie), we know `F = ma`. But here, the force isn't a one-trick pony; it continually changes direction, keeping the object in a loop.
+2. **The Force and Acceleration Tango**: The force applied keeps our object in circular motion. Thanks to Newton (Isaac, not the fig cookie), we know \(F = ma\). But here, the force isn't a one-trick pony; it continually changes direction, keeping the object in a loop.
 
 ## The Role of Velocity
 1. **Constant Speed, Changing Velocity**: Even at a constant speed, our object’s velocity is as constant as a chameleon in a disco. Why? Because velocity is a vector - it cares about direction and magnitude.
@@ -24,9 +24,9 @@ Welcome, curious minds! Today, we dive into the delightful dance of physics mani
 2. **Acceleration's New Direction**: Every time position changes, acceleration changes its direction, always pointing towards the center of the circle. It's like a compass always pointing north, but in this case, towards the circle's center.
 
 3. **Equations in Play**:
-   - Position: \( x_{new} = x_{old} + vx * \epsilon \), \( y_{new} = y_{old} + vy * \epsilon \)
+   - Position: \( x_{new} = x_{old} + vx \epsilon \), \( y_{new} = y_{old} + vy \epsilon \)
    - Velocity: Updated based on acceleration.
-   - Acceleration: \( ax = -x * \frac{a}{R} \), \( ay = -y * \frac{a}{R} \)
+   - Acceleration: \( ax = -x \frac{a}{R} \), \( ay = -y \frac{a}{R} \)
 
 ## Vector Components
 1. **Breaking It Down**: Velocity and acceleration have x and y components. In the world of vectors, it's like having a split personality, one horizontal, one vertical.
