@@ -29,9 +29,27 @@ This Python script simulates the circular motion of an object subjected to a con
 - **Major Axes**: Drawn through `x=0` and `y=0` to illustrate motion relative to the origin. Because every hero needs a reference point.
 
 ## How to Use
-1. Ensure Pandas and Matplotlib are installed.
-2. Run the script and witness an object’s circular dance choreographed by physics.
-3. Observe the output DataFrame and the plot to analyze the motion.
+
+1. **Installation**: Ensure Pandas and Matplotlib are installed. If not, you can install them using pip. Open your terminal or command prompt and run:
+   ```bash
+   pip install pandas matplotlib
+   ```
+
+2. **Running the Script**: Navigate to the directory where your script is located. Run the script using Python from your command line:
+   ```bash
+   python circular_motion_simulation.py
+   ```
+   Replace `circular_motion_simulation.py` with the actual name of your Python script.
+
+3. **View Results**: After running the script, two things will happen:
+   - A DataFrame showing the state of the object at each time step will be printed in the terminal. You can scroll through it to view the simulation data.
+   - A scatter plot illustrating the object's trajectory will be displayed. This plot can be saved manually or modified within the script to save automatically.
+
+4. **Modifying Parameters**: If you wish to change the simulation parameters (like the number of steps `n`, time step `ε`, etc.), open the script in a text editor and modify the values in the 'Constants' section. Be mindful of their impact on the simulation.
+
+5. **Re-run the Simulation**: After making any changes to the script, save it, and repeat step 2 to run the simulation with the new parameters.
+
+Remember, the accuracy of the simulation greatly depends on the chosen values of `n` (number of steps) and `ε` (time step). Fine-tuning these parameters can lead to more accurate or visually appealing results.
 
 ## Caution
 - Don't change the constants without understanding their impact. It's like playing with fire, but with equations.
